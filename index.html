@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Calculator</title>
+    <title>Character Test</title>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-1.12.4.js"></script>
@@ -9,47 +9,55 @@
   </head>
   <body>
     <div class="container">
-      <h1>Calculator</h1>
-      <div id="input" class="col-md-8">
-        <form id="calculator">
-          <div class="form-group">
-            <label for="input1">1st number:</label>
-            <input id="input1" class="form-control" type="text">
-          </div>
-          <div class="form-group">
-            <label for="input2">2nd number:</label>
-            <input id="input2" class="form-control" type="text">
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="operator" value="add" checked>
-              add
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="operator" value="subtract">
-              subtract
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="operator" value="multiply">
-              multiply
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="operator" value="divide">
-              divide
-            </label>
-          </div>
+      <h1> which Big Bang Theory character are you? </h1>
+      <div id="input">
+        <form id="test">
+          <label for="grp-pos">In your group of friends you are:</label>
+          <select id="q1">
+            <option value="1">The leader</option>
+            <option value="2">The funny one</option>
+            <option value="3">The pretty one</option>
+            <option value="4">The smart one</option>
+            <option value="5">Just part of the group</option>
+          </select><br>
+          <label for="grp-pos">when faced with a problem you:</label>
+          <select id="q2">
+            <option value="4">find a solution through carefully thinking and considering all of the outcomes.</option>
+            <option value="3">follow your gut feeling.</option>
+            <option value="1">test a few scenarios to see which produces the best results.</option>
+            <option value="2">ask someone who's been trhough a similar situation for help.</option>
+            <option value="5">avoid it and try not to think about it.</option>
+          </select><br>
+          <label for="grp-pos">Time to layer up! you wear:</label>
+          <select id="q3">
+            <option value="1">A hoodie</option>
+            <option value="2">A turtleneck</option>
+            <option value="5">A sweater</option>
+            <option value="4">A jacket</option>
+            <option value="3">Does an extra tank top count as a layer?</option>
+          </select><br>
+          <label for="q4">How do you describe your driving skills:</label>
+          <select id="gender">
+            <option value="3">I should probably be driving formula one cars</option>
+            <option value="1">I keep my hands at 10 &amp; 2 and check the blind psots regularly</option>
+            <option value="2">I drive pretty well, got a few ticets</option>
+            <option value="4">I'd rather be miss Daisy</option>
+            <option value="5">I have a pretty clean record</option>
+          </select><br>
+          <label for="q5">At a party you are:</label>
+          <select id="gender">
+            <option value="1">Standing in a corner talking about events</option>
+            <option value="3">Having too much fun that I regret it in the morning</option>
+            <option value="5">Working the room making sure I talked with everyone</option>
+            <option value="4">Singing "Dont stop Believing" om the Karaoke</option>
+            <option value="2">Finally letting loose after a hard week</option>
+          </select><br>
           <button type="submit" class="btn">Go!</button>
-        </form>
-      </div>
-      <div id="output" class="col-md-4">
+          </form>
+        </div>
+        <div id="output">
 
-      </div>
+        </div>
     </div>
   </body>
 </html>
